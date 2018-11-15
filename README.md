@@ -57,7 +57,7 @@ sphinxtrain run
 ```
 
 
-# Changing config from default (sphinx_train.cfg)
+# Change config from default (sphinx_train.cfg)
 1. number of senons (optional)
 ```commandline
 # Number of tied states (senones) to create in decision-tree clustering
