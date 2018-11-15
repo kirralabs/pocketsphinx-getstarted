@@ -46,12 +46,12 @@ $CFG_BASE_DIR = "/home/kirra/sphinx/other";
 
 ```
 
-1. go to root folder
+3. go to root folder
 ```commandline
 cd /home/kirra/sphinx/other
 ```
 
-1. train model (on Linux)
+4. train model (on Linux)
 ```commandline
 sphinxtrain run
 ```
@@ -64,7 +64,7 @@ sphinxtrain run
 $CFG_N_TIED_STATES = 8;
 ```
 
-1. model to use
+2. model to use
 ```commandline
 # Models to use.
 # $DEC_CFG_MODEL_NAME = "$CFG_EXPTNAME.cd_${CFG_DIRLABEL}_${CFG_N_TIED_STATES}";
@@ -77,7 +77,7 @@ $DEC_CFG_MODEL_NAME = "$CFG_EXPTNAME.ci_cont";
 cd /home/kirra/sphinx/other
 ```
 
-1. run testing
+2. run testing
 ```commandline
 sphinxtrain -s decode run
 ```
@@ -94,6 +94,7 @@ MODULE: DECODE Decoding using models previously trained
 ```
 
 # Transcript wav with new model 
+1. run command
 ```commandline
 pocketsphinx_continuous -hmm model_parameters/other.ci_cont/ -lm etc/other.lm.bin -dict etc/other.dic -infile wav/one.wav
 ```
@@ -311,7 +312,7 @@ INFO: ngram_search.c(303): TOTAL bestpath 0.00 CPU 0.000 xRT
 INFO: ngram_search.c(306): TOTAL bestpath 0.00 wall 0.000 xRT
 ```
 
-1. the result is:
+2. the result is:
 ```commandline
 sentences on
 ```
