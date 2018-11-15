@@ -9,6 +9,66 @@ I assume you have done the initial installation
 1. sphinxtrain
 1. sphinxbase
 
+# Data structure
+```commandline
+├─ etc
+    ├── sphinx_train.cfg
+    ├── feat.params
+    ├── corpus.txt
+    ├── feat.params
+    ├── other.dic
+    ├── other.filler
+    ├── other.idngram
+    ├── other.lm
+    ├── other.lm.bin
+    ├── other.lm.DMP
+    ├── other.phone
+    ├── other_test.fileids
+    ├── other_test.transcription
+    ├── other_train.fileids
+    ├── other_train.transcription
+    ├── other.vocab
+    └── sphinx_train.cfg
+└─ wav
+    ├── one.wav
+    ├── one2.wav
+    ├── one3.wav
+    ├── one4.wav
+    ├── two.wav
+    ├── two2.wav
+    ├── two3.wav
+    ├── two4.wav
+    ├── three.wav
+    ├── three2.wav
+    ├── three3.wav
+    ├── three4.wav
+    ├── four.wav
+    ├── four2.wav
+    ├── four3.wav
+    └── four4.wav
+```
+
+# Data corpus
+```text
+<s> sentences on english one </s>
+<s> sentences on english two </s>
+<s> sentences on english three </s>
+<s> sentences on english four </s>
+<s> sentences on english one </s>
+<s> sentences on english two </s>
+<s> sentences on english three </s>
+<s> sentences on english four </s>
+<s> sentences on english one </s>
+<s> sentences on english two </s>
+<s> sentences on english three </s>
+<s> sentences on english four </s>
+<s> sentences on english one </s>
+<s> sentences on english two </s>
+<s> sentences on english three </s>
+<s> sentences on english four </s>
+```
+
+
 # How to run 
 1. clone this repo:
 ```commandline
